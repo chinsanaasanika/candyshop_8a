@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+}
+.top {
+  width: 100%;
+  height: 7%;
+  background-color: #cc99ff;
+}
+.logo{
+    width: 4%;
+    height: 100%;
+    background-color: black;
+}
+.name{
+    width: 12%;
+    height: 100%;
+    background-color: #000000;
+}
+.bottom {
+  width: 100%;
+  height: 95%;
+  background-color: white;
+}
