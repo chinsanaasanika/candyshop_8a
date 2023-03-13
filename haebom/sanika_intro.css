@@ -25,10 +25,20 @@
   height: 100%;
   background-color: black;
 }
+img logo{
+  width: 100%;
+  height: 100%;
+}
 .name {
   width: 25%;
   height: 100%;
   background-color: #cc99ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-size: 150%;
 }
 .nn{
   width: 50%;
@@ -42,13 +52,24 @@
   width: 10%;
   height: 100%;
   background-color: #7835e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 login{
+  font-size: 60%;
 }
 .signup {
   width: 10%;
   height: 100%;
   background-color: #fc46aa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+h1 signup{
+  font-size: 60%;
+}
 .bottom {
   width: 100%;
   height: 95%;
@@ -56,14 +77,32 @@
 }
 .bb{
   width: 100%;
-  height: 80%;
+  height: 70%;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .intro{
-  width: 30%;
+  width: 25%;
   height: 70%;
+  background-color: #7835e3;
+}
+img{
+  width: 100%;
+  height: 100%;
+
+}
+.shopnow{
+  width: 100%;
+  height: 30%;
+  background-color: #d8b3fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shopbt{
+  width: 10%;
+  height: 20%;
   background-color: #7835e3;
 }
