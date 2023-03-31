@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.con{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(216, 179, 254), rgb(255, 119, 194));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bla{
+    width: 25%;
+    height: 75%;
+    background-color: #ffffff;
+    border-radius: 2%;
+}
+.text{
+    width: 100%;
+    height: 15%;
+    background-color: #ffffff;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8%;
+}
+.bottom{
+    width: 100%;
+    height: 85%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
