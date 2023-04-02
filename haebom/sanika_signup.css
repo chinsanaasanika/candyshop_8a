@@ -19,7 +19,7 @@
 }
 .text{
     width: 100%;
-    height: 35%;
+    height: 30%;
     background-color: #ffffff;
     font-size: 30px;
     font-family: 'Fjalla One', sans-serif;
@@ -34,8 +34,9 @@
     background-color: rgb(255, 255, 255);
     border-radius: 3%;
     display: flex;
-    align-items: start;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .button{
     width: 100%;
@@ -69,4 +70,26 @@
     font-size: 1em;
     color: rgb(216, 179, 254);
     text-transform: uppercase;
+}
+.signupbtn{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupbtn a{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(255, 66, 170);
+    width: 160px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 30px;
 }
